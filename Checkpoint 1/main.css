@@ -52,7 +52,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 500px;
-    background-color: green;
+    background-color: lightgray;
     margin-top: 100px;
 }
 
