@@ -10,7 +10,6 @@
 
 .flexOne {
     display: flex;
-    justify-content: center;
 }
 
 .flexOne .square {
@@ -28,6 +27,7 @@
 
 .flexThree {
     display: flex;
+    justify-content: flex-end;
     flex-direction: row-reverse;
 }
 
