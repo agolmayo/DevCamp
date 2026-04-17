@@ -16,6 +16,11 @@ a_float = 3.14
 
 a_integer = 18
 
+#Decimal
+
+from decimal import Decimal
+a_decimal = Decimal("10.99")
+
 #Dictionary
 
 a_dictionary = {
@@ -28,6 +33,7 @@ print(a_list)
 print(a_tuple)
 print(a_float)
 print(a_integer)
+print (a_decimal)
 print(a_dictionary)
     
 #Exercise 2
@@ -75,7 +81,7 @@ print(a_list)
 
 #Exercise 9
 
-new_tuple = a_tuple + (4,)
+a_tuple += (4,)
 
-print(new_tuple)
+print(a_tuple)
 
